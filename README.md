@@ -67,15 +67,6 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-2. Visit the docs to see the API in action:
-
-   * Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
-   * ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
-## API Docs
-
-Full API details are in the `API_DOCUMENTATION.md` file.
-
 ## Security
 
 * Endpoints will have auth protection (still need to implement)
