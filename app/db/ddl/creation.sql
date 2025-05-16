@@ -5,7 +5,7 @@
 -- drop table if exists categories;
 
 ------------------------ddl
--- DROP TABLES (in dependency-safe order)
+
 DROP TABLE IF EXISTS sales;
 DROP TABLE IF EXISTS inventory;
 DROP TABLE IF EXISTS products;
